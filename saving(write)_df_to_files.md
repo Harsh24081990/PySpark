@@ -1,4 +1,4 @@
-## Writing (saving) DF to files: -
+## Saving (Writing) DF to files: -
 ### When saving a DataFrame to files, you can use either of the two syntax 
 ###.format().save() or use the .csv() method directly.
 **Writing the dataframes into fiels will create multiple part files and file names also will be decided by spark. we can only specify the directory where the part files will be saved.**
