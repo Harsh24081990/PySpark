@@ -1,4 +1,3 @@
-%md
 ## Basic concepts
 #### SparkSession
 The SparkSession is a "class" which is defined in the pyspark.sql module.
