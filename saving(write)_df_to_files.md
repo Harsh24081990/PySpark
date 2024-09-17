@@ -1,4 +1,3 @@
-%md
 ## Writing (saving) DF to files: -
 ### When saving a DataFrame to files, you can use either of the two syntax 
 ###.format().save() or use the .csv() method directly.
