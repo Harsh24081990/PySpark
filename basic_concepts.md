@@ -39,6 +39,5 @@ If you assign a new DataFrame to the same variable name as the previous df, The 
 The old DataFrame instances that are no longer referenced will eventually be cleaned up by Python's garbage collector, assuming there are no other references to them. Once you overwrite a DataFrame with a new instance, the previous DataFrame is no longer accessible unless it was explicitly stored elsewhere. <br>
 In Python, garbage collection is handled automatically by the Python runtime, and there is no fixed time interval for when an object, including a PySpark DataFrame, will be cleaned up. Instead, garbage collection is triggered based on specific conditions. <br>
 Periodic Checks: The cyclic garbage collector runs periodically, and its frequency can be influenced by the size of the program, the amount of garbage generated, and other factors.
--------------------------------------------------------------------------------------
 
 
