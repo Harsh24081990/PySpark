@@ -3,7 +3,7 @@
 ###.format().save() or use the .csv() method directly.
 **Writing the dataframes into fiels will create multiple part files and file names also will be decided by spark. we can only specify the directory where the part files will be saved.**
 #### create a datafram manually.
-~~~
+~~~ python
 data = [(1,'harsh','good'),(2,'happy','bad')]
 schema = ['id','name','prop']
 
