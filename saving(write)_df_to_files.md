@@ -12,7 +12,7 @@ display(df)
 ~~~
 --------------------------------------------------
 #### Load df to a csv file in DBFS. Using .format().save()
-~~~
+~~~ python
 path = 'dbfs:/FileStore/shared_uploads/harsh786harsh@gmail.com/df/emp'
 df.write.format("csv")\
         .mode("overwrite")\
@@ -21,19 +21,19 @@ df.write.format("csv")\
         .save(path)
 ~~~
 #### Load df to a csv file in DBFS Using .csv()
-~~~
+~~~ python
 path = 'dbfs:/FileStore/shared_uploads/harsh786harsh@gmail.com/df/csv'
 df.write.csv(path=path, header=True, mode='overwrite', sep=',')
 ~~~
 #### another way of Using .csv()
-~~~
+~~~ python
 df.write.option("header", "true")\
         .option("delimiter", ",")\
         .mode("overwrite")\
         .csv(path)
 ~~~
 #### Read back the created file.
-~~~
+~~~ python
 spark.read.csv(path=path, sep=',', header=True).show()  
 ~~~    
 ----------------------------------------------
