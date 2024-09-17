@@ -1,4 +1,5 @@
 ## Creatre DataFrame manually by entering hardcoded values !!
+
 ### Different Ways of Creating dataframe rows manually.
 
 #1. List of Tuples. Each Tuple represents one row of the dataframe and it's eliments represents the columns.
