@@ -1,6 +1,4 @@
-%md
 ## Creatre DataFrame manually by entering hardcoded values !!
-~~~
 ### Different Ways of Creating dataframe rows manually.
 
 #1. List of Tuples. Each Tuple represents one row of the dataframe and it's eliments represents the columns.
@@ -91,5 +89,4 @@ df1 = df.withColumn('number_1', df.number[0])\
         .withColumn('number_2', df.number[1])
 df1.show()
 ---------------------------------------------------------------------------
-~~~
 
