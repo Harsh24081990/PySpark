@@ -91,3 +91,17 @@ df1 = df.withColumn('number_1', df.number[0])\
 df1.show()
 ---------------------------------------------------------------------------
 
+## create df using 'Row' class
+
+from pyspark.sql import Row
+
+# To access the specific attribute within the row use following:
+# parallelizedRows = spark.sparkContext.parallelize(newRows)
+row1[0]
+
+# Create a dataframe
+row1 = Row("Ram", None, 1, True)
+myManualSchema = "Name string, address string not null, id integer, exists string"
+manDf = spark.createDataFrame([row1], myManualSchema)
+manDf.show()
+---------------------------------------------------------------------------
