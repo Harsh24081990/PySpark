@@ -1,4 +1,4 @@
-### Data type------------------Value assigned in Python-----------------API to instantiate
+### Data type------------------Value assigned in Python--------------API to instantiate
 ~~~
 **Data type------------------Value assigned in Python-----------------API to instantiate**
 # ByteType ---------------------------- int ------------------------- DataTypes.ByteType
