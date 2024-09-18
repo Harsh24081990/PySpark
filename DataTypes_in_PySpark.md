@@ -11,7 +11,7 @@
 # DecimalType --------------------------decimal-----------------------DecimalType
 # BinaryType ---------------------------bytearray --------------------BinaryType()
 # TimestampType ------------------------datetime.datetime ------------TimestampType()
-# DateType 	----------------------------datetime.date ----------------DateType()
+# DateType 	------------------------datetime.date ----------------DateType()
 # ArrayType ----------------------------List, tuple, or array --------ArrayType(dataType, [nullable])
 # MapType ------------------------------dict -------------------------MapType(keyType, valueType, [nullable])
 # StructType ---------------------------List or tuple ----------------StructType([fields])
