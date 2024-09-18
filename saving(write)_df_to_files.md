@@ -58,3 +58,5 @@ spark.read.format("parquet")\
 csvFile.write.format("parquet").mode("overwrite")\
 .save("/tmp/my-parquet-file.parquet")
 ~~~
+--------------------------------------------------
+
