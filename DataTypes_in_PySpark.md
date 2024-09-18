@@ -1,4 +1,5 @@
-# Data type------------------Value assigned in Python---------------API to instantiate
+~~~
+# Data type------------------Value assigned in Python-----------------API to instantiate
 # ByteType ---------------------------- int ------------------------- DataTypes.ByteType
 # ShortType --------------------------- int ------------------------- DataTypes.ShortType
 # IntegerType --------------------------int --------------------------DataTypes.IntegerType
@@ -17,4 +18,4 @@
 # StructField --------------------------List or tuple ----------------StructField(name, dataType, [nullable])
 
 #=====================================================================================================================
-
+~~~
