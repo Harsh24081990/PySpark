@@ -1,4 +1,4 @@
-# SCD type 1 using Merge into statement:-
+## SCD type 1 using Merge into statement
 
 ```
 MERGE INTO TargetTable AS target
