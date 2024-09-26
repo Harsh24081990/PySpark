@@ -1,6 +1,6 @@
 Implementing Slowly Changing Dimensions (SCD) Type 2 using the MD5 function in Databricks involves a few key steps. Here’s a detailed guide on how to do this:
 
-### Steps to Implement SCD Type 2 in Databricks Using MD5
+# Steps to Implement SCD Type 2 in Databricks Using MD5
 
 #### 1. **Setup Your Environment**
 - Ensure you have access to a Databricks workspace and have your data sources available (both the current dimension table and the new incoming data).
@@ -111,21 +111,6 @@ WHEN NOT MATCHED THEN
     INSERT (ID, Col1, Col2, StartDate, EndDate, Current)
     VALUES (source.ID, source.Col1, source.Col2, CURRENT_DATE, NULL, 1);
 ```
-=================================================================
-
-# SCD type 1 using Merge into statement:-
-~~~
-MERGE INTO TargetTable AS target
-USING SourceTable AS source
-ON target.ID = source.ID
-WHEN MATCHED THEN
-    UPDATE SET 
-        target.Col1 = source.Col1,
-        target.Col2 = source.Col2
-WHEN NOT MATCHED THEN
-    INSERT (ID, Col1, Col2)
-    VALUES (source.ID, source.Col1, source.Col2);
-~~~
 =================================================================
 
 
