@@ -1,4 +1,4 @@
-### Escape Characters: \ is known as escape character. escape characters are used to handle special characters like newlines, tabs, quotes, or even backslashes themselves.
+### Escape Characters: \ (back slash) is known as escape character. escape characters are used to handle special characters like newlines, tabs, quotes, or even backslashes themselves.
 For example:
 - \n is used to represent a newline character.
 - \t represents a tab.
