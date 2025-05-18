@@ -1,8 +1,12 @@
 ## regexp_replace()
 
+---
+
 ## regexp_extract()
 
-## split()
+---
+
+## split() --> splits based on some "delimiter". 
 syntax : 
 from pyspark.sql.functions import split
 
@@ -10,6 +14,10 @@ split(column, pattern)
 column: The name of the column (or an expression) you want to split.
 pattern: A regular expression string that defines where to split.
 
+---
+## substring() --> splits or take some portion out of a string based on "Postion"/"index"
+
+---
 ## RLIKE (used in SQL only)
 
 ------------------------
