@@ -15,7 +15,7 @@ column: The name of the column (or an expression) you want to split.
 pattern: A regular expression string that defines where to split.
 
 ---
-## substring() --> splits or take some portion out of a string based on "Postion"/"index"
+## substring() --> splits or take some portion out of a string based on "Position"/"index"
 
 ---
 ## RLIKE (used in SQL only)
