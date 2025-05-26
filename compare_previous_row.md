@@ -94,7 +94,7 @@ final_df.show()
 ```
 
 ## using "lag" windows function.
-``python
+```python
 from pyspark.sql import SparkSession
 from pyspark.sql.window import Window
 from pyspark.sql.functions import lag, col, when
