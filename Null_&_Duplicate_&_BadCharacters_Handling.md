@@ -9,6 +9,7 @@
 ```df.na.drop(subset=["col1", "col2"])```
 
 - Other "na" options are as below:-
+
 | Function              | Full Syntax                                         | Purpose                                                   |
 | --------------------- | --------------------------------------------------- | --------------------------------------------------------- |
 | `drop()`              | `df.na.drop()`                                      | Remove rows containing `null` values.                     |
