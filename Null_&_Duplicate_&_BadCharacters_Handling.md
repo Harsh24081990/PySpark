@@ -1,4 +1,4 @@
-# NULL handling
+# Handling NULLs
 
 #### use isNotNull() function. 
 - Ex: Filter rows where the 'age' column is not null
