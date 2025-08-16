@@ -1,4 +1,4 @@
-Sales data analysis using SQL --> https://github.com/Harsh24081990/sql/blob/main/sales_analysis.md
+
 ### CSV file have product_id, product_category, sales_date, sales_amount
 ### find out Most sold product_category in each year. 
 
