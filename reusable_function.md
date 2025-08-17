@@ -36,9 +36,6 @@ df2_clean = clean_names(df2)
 ---
 # Example2:
 
-
-### **Step 1: Create a reusable function**
-
 ```python
 from pyspark.sql import DataFrame
 from pyspark.sql.functions import trim, col
@@ -51,9 +48,7 @@ def clean_names(df: DataFrame) -> DataFrame:
              .withColumn("last_name", trim(col("last_name")))
 ```
 
-
-
-### **Step 2: Use it for different tables**
+### Usage
 
 ```python
 # Table 1
