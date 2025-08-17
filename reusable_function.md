@@ -21,7 +21,7 @@ def clean_names(df):
     return df
 ```
 
----
+
 
 ### Usage
 
@@ -51,7 +51,7 @@ def clean_names(df: DataFrame) -> DataFrame:
              .withColumn("last_name", trim(col("last_name")))
 ```
 
----
+
 
 ### **Step 2: Use it for different tables**
 
